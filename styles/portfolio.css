@@ -1,21 +1,42 @@
 /*font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;*/
-body {
-  text-align: center;
+:root {
+  --primary-color: #d2d5e6;
+  --heading-font-family: "Arvo", serif;
+  --default-font-family: "Open Sans", sans-serif;
 }
-h1,
-h2 {
-  color: red;
-  font-family: "Open Sans", sans-serif;
+body {
+  font-family: var(--default-font-family);
+}
+h1 {
+  color: var(--primary-color);
+  font-family: var(--heading-font-family);
+  font-size: 85px;
 }
 
-p {
-  color: white;
-  font-family: "Roboto", sans-serif;
+.homepage p {
+  color: var(--primary-color);
+
+  font-size: 36px;
+}
+
+.homepage {
+  padding: 135px 20px;
+  text-align: center;
 }
 .space {
   background-image: url("/images/space.jpeg");
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
+}
+
+.btn-branding {
+  background-color: #6e8ba1;
+  border-radius: 28px;
+  color: var(--primary-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
 }
