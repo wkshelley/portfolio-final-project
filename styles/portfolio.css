@@ -37,7 +37,40 @@ h1 {
   background-color: #6e8ba1;
   border-radius: 28px;
   color: var(--primary-color);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 27px;
   padding: 12px 20px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(-360deg);
+  }
+}
+
+#earth {
+  width: 200px;
+  height: 200px;
+  background: url("/images/earth.jpg") repeat;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  border-radius: 100%;
+  margin: 120px;
+  position: absolute;
+  animation: rotate 150s infinite linear;
+}
+@media (max-width: 500px) {
+  h1,
+  p {
+    text-align: center;
+    font-size: 20px;
+    font-family: var(--default-font-family);
+  }
+  .btn-branding {
+    font-size: 11px;
+    padding: 10px;
+  }
 }
