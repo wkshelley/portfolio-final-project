@@ -61,7 +61,7 @@ h1 {
   height: 100px;
   background: url("/images/earth.jpg");
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: 100px;
   border-radius: 50%;
   padding-bottom: 20px;
   animation: rotate 50s infinite linear;
@@ -70,6 +70,16 @@ h1 {
   width: 100px;
   height: 100px;
   background: url("/images/mars.jpg");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  border-radius: 50%;
+  padding-bottom: 20px;
+  animation: rotate 50s infinite linear;
+}
+#mecury {
+  width: 100px;
+  height: 100px;
+  background: url("/images/mecury.jpg");
   background-repeat: no-repeat;
   background-size: 100px;
   border-radius: 50%;
