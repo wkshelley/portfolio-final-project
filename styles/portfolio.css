@@ -20,20 +20,6 @@ h1 {
   margin-bottom: 45px;
 }
 
-ul {
-  list-style: none;
-}
-
-.description {
-  margin: 30px;
-  text-align: center;
-}
-
-.description p {
-  font-family: var(--default-font-family);
-  font-size: 16px;
-  line-height: 1.7;
-}
 .homepage p {
   color: var(--primary-color);
   font-size: 20px;
@@ -43,18 +29,7 @@ ul {
   padding: 140px 20px;
   text-align: center;
 }
-.solar-description {
-  background-color: #d0dde6;
-  text-align: center;
-}
 
-.galaxy {
-  background-image: url("/images/sky.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 650px;
-}
 .space {
   background-image: url("/images/space.jpg");
   background-position: center;
@@ -82,26 +57,54 @@ ul {
 }
 
 #earth {
-  width: 200px;
-  height: 200px;
-  background: url("/images/earth.jpg") repeat;
+  width: 100px;
+  height: 100px;
+  background: url("/images/earth.jpg");
   background-repeat: no-repeat;
-  background-size: 200px;
-  border-radius: 100%;
-  /* margin: 120px 85px;*/
-  /* position: absolute;*/
+  background-size: 50%;
+  border-radius: 50%;
+  padding-bottom: 20px;
   animation: rotate 50s infinite linear;
 }
-#venus {
-  width: 200px;
-  height: 200px;
-  background: url("/images/venus.jpg") repeat;
+#mars {
+  width: 100px;
+  height: 100px;
+  background: url("/images/mars.jpg");
   background-repeat: no-repeat;
-  background-size: 200px;
-  border-radius: 100%;
-  /* margin: 120px 85px;*/
-  position: absolute;
+  background-size: 100px;
+  border-radius: 50%;
+  padding-bottom: 20px;
   animation: rotate 50s infinite linear;
+}
+#jupiter {
+  width: 100px;
+  height: 100px;
+  background: url("/images/jupiter.jpg");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  border-radius: 50%;
+  padding-bottom: 20px;
+  animation: rotate 50s infinite linear;
+}
+#saturn {
+  width: 100px;
+  height: 100px;
+  background: url("/images/saturn.jpg");
+  background-repeat: no-repeat;
+  background-size: 99px;
+  border-radius: 50%;
+  padding-bottom: 20px;
+  animation: rotate 30s infinite linear;
+}
+#venus {
+  width: 100px;
+  height: 100px;
+  background: url("/images/venus.jpg");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  border-radius: 50%;
+  padding-bottom: 20px;
+  animation: rotate 30s infinite linear;
 }
 @media (max-width: 500px) {
   h1,
