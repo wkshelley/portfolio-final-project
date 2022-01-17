@@ -1,0 +1,40 @@
+:root {
+  --primary-color: #d2d5e6;
+  --seconday-color: #6e8ba1;
+  --heading-font-family: "Arvo", serif;
+  --default-font-family: "Open Sans", sans-serif;
+}
+body {
+  font-family: var(--default-font-family);
+  color: var(--seconday-color);
+  margin: 20px;
+}
+
+p {
+  font-family: var(--default-font-family);
+  font-size: 20px;
+  line-height: 1.7;
+  color: var(--primary-color);
+  margin: 10px 50px 5px 50px;
+  padding: 50px 5px;
+}
+
+.milkyway {
+  background-image: url("/images/milkway.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+@media (max-width: 500px) {
+  h1,
+  p {
+    text-align: center;
+    font-size: 14px;
+    font-family: var(--default-font-family);
+  }
+  .btn-branding {
+    font-size: 11px;
+    padding: 10px;
+  }
+}

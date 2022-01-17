@@ -46,7 +46,15 @@ h1 {
   line-height: 27px;
   padding: 12px 20px;
 }
-
+.thumbnail:hover {
+  position: relative;
+  top: -25px;
+  left: -35px;
+  width: 500px;
+  height: auto;
+  display: block;
+  z-index: 999;
+}
 @keyframes rotate {
   0% {
     transform: rotateZ(0);
@@ -86,6 +94,16 @@ h1 {
   padding-bottom: 20px;
   animation: rotate 50s infinite linear;
 }
+#neptune {
+  width: 100px;
+  height: 100px;
+  background: url("/images/neptune.jpg");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  border-radius: 50%;
+  padding-bottom: 20px;
+  animation: rotate 50s infinite linear;
+}
 #jupiter {
   width: 100px;
   height: 100px;
@@ -110,6 +128,16 @@ h1 {
   width: 100px;
   height: 100px;
   background: url("/images/venus.jpg");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  border-radius: 50%;
+  padding-bottom: 20px;
+  animation: rotate 30s infinite linear;
+}
+#uranus {
+  width: 100px;
+  height: 100px;
+  background: url("/images/uranus.jpg");
   background-repeat: no-repeat;
   background-size: 100px;
   border-radius: 50%;
