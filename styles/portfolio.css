@@ -46,14 +46,37 @@ h1 {
   line-height: 27px;
   padding: 12px 20px;
 }
-.thumbnail:hover {
+
+.planet {
   position: relative;
-  top: -25px;
-  left: -35px;
-  width: 500px;
-  height: auto;
-  display: block;
-  z-index: 999;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 150%;
+  width: 200%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: black;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 12px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.planet :hover .overlay {
+  opacity: 1;
 }
 @keyframes rotate {
   0% {

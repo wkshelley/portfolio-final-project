@@ -7,6 +7,7 @@
 body {
   font-family: var(--default-font-family);
   color: var(--seconday-color);
+  margin: 50px;
 }
 h4 {
   font-size: 35px;
@@ -65,10 +66,12 @@ li {
 }
 @media (max-width: 500px) {
   h1,
+  h4,
   p {
     text-align: center;
     font-size: 14px;
     font-family: var(--default-font-family);
+    margin: 5px;
   }
   .btn-branding {
     font-size: 11px;
