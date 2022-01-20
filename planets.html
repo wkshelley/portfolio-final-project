@@ -25,7 +25,34 @@
       href="https://fonts.googleapis.com/css2?family=Arvo&family=Open+Sans:wght@500&family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/planet.css" />
+    <link rel="stylesheet" href="styles/planets.css" />
+    <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+  <div class="row text-center">
+    <div class="col-md-4 card-container">
+      <div class="card card-flip">
+        <div class="front card-block">
+          <!-- To add FontAwesome Icons use Unicode characters and to set size use font-size instead of fa-*x because when calculating the height (see js), the size of the icon is not calculated if using classes -->
+          <span class="card-img-top fa" style="font-size: 4em">&#xf118;</span>
+          <h4 class="card-title">Front Title</h4>
+          <h6 class="card-subtitle text-muted">Front Sub-title</h6>
+          <p class="card-text">Front Text</p>
+        </div>
+        <div class="back card-block">
+          <p>
+            Some example text<br> to
+            <br> increase
+            <br> card
+            <br> height
+            <br> to
+            <br> something
+            <br> long
+          </p>
+          <a href="#" class="btn btn-outline-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
