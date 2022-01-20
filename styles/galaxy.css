@@ -5,6 +5,7 @@
 }
 body {
   font-family: var(--default-font-family);
+  margin: 70px;
 }
 
 a {
@@ -16,6 +17,13 @@ h1 {
   font-family: var(--heading-font-family);
   font-size: 85px;
   margin-bottom: 45px;
+}
+
+p {
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  line-height: 30px;
+  text-indent: 50px;
 }
 
 ul {
@@ -41,7 +49,7 @@ section a {
 
 .description {
   margin: 30px;
-  text-align: center;
+  padding: 20px 10px;
 }
 .description h3 {
   font-family: var(--default-font-family);
@@ -50,8 +58,6 @@ section a {
 
 .description p {
   font-family: var(--default-font-family);
-  font-size: 16px;
-  line-height: 1.7;
   color: var(--primary-color);
 }
 .solar-description {
@@ -68,7 +74,11 @@ section a {
 }
 @media (max-width: 500px) {
   h1,
-  h3,
+  h2,
+  h3 {
+    font-size: 18px;
+  }
+
   p {
     text-align: center;
     font-size: 14px;

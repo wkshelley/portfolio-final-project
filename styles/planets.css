@@ -1,0 +1,57 @@
+@keyframes rotate {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(-360deg);
+  }
+}
+
+.rotate {
+  width: 25%;
+  background-repeat: no-repeat;
+  background-size: 25%;
+  border-radius: 50%;
+  padding-bottom: 20px;
+  animation: rotate 30s infinite linear;
+}
+#mars {
+  width: 200px;
+  height: 200px;
+  background: url("/images/mars.jpg");
+  background-repeat: no-repeat;
+  background-size: 200px;
+  border-radius: 50%;
+  padding-bottom: 20px;
+  animation: rotate 15s infinite linear;
+}
+#mecury {
+  width: 100px;
+  height: 100px;
+  background: url("/images/mecury.jpg");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  border-radius: 50%;
+  padding-bottom: 20px;
+  animation: rotate 50s infinite linear;
+}
+#jupiter {
+  width: 100px;
+  height: 100px;
+  background: url("/images/jupiter.jpg");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  border-radius: 50%;
+  padding-bottom: 20px;
+  animation: rotate 50s infinite linear;
+}
+#venus {
+  width: 100px;
+  height: 100px;
+  background: url("/images/venus.jpg");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  border-radius: 50%;
+  padding-bottom: 20px;
+  animation: rotate 30s infinite linear;
+}
