@@ -1,11 +1,13 @@
 body {
-  background: grey;
+  background-color: rgb(92, 90, 90);
   color: aliceblue;
   font-family: "Open Sans", sans-serif;
   margin: 20px;
 }
 h2 {
-  color: #eed4ba;
+  color: #f1c79d;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 li {
@@ -97,6 +99,13 @@ p {
   background-color: rgb(161, 156, 156);
   padding: 35px;
   line-height: 1.7;
+}
+
+.description-box p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-top: 2px;
+  text-indent: 50px;
 }
 
 .navbar {
@@ -193,4 +202,15 @@ p {
   border-radius: 50%;
   padding-bottom: 20px;
   animation: rotate 12s infinite linear;
+}
+@media (max-width: 900px) {
+  .description-box {
+    margin-top: 5px;
+  }
+  .description-box p {
+    font-size: 14px;
+    text-indent: 2%;
+
+    text-align: center;
+  }
 }
