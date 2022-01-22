@@ -93,6 +93,12 @@ p {
   background-color: rgb(161, 156, 156);
   padding: 15px 10px;
 }
+.description-box {
+  background-color: rgb(161, 156, 156);
+  padding: 35px;
+  line-height: 1.7;
+}
+
 .navbar {
   padding: 15px;
   margin: 0 50px;
