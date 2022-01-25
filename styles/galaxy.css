@@ -60,9 +60,8 @@ section a {
   padding: 20px 10px;
 }
 
-.description:hover {
-  background-color: grey;
-  color: black;
+.row :hover {
+  background-color: #22252e;
 }
 .description h3 {
   font-family: var(--default-font-family);
