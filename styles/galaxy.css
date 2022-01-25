@@ -41,9 +41,7 @@ ul {
 section {
   color: #6e8ba1;
 }
-.hubble {
-  margin-top: 100px;
-}
+
 section a {
   color: var(--primary-color);
 }
@@ -61,6 +59,11 @@ section a {
   margin: 30px;
   padding: 20px 10px;
 }
+
+.description:hover {
+  background-color: grey;
+  color: black;
+}
 .description h3 {
   font-family: var(--default-font-family);
   color: #6e8ba1;
@@ -71,12 +74,21 @@ section a {
   color: var(--primary-color);
   text-indent: 50px;
 }
+.description li {
+  font-family: var(--default-font-family);
+  color: var(--primary-color);
+}
+
 .galaxy {
   background-image: url("/images/sky.jpg");
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
   height: 650px;
+}
+
+.hubble {
+  margin-top: 30px;
 }
 .number {
   font-size: 22px;
@@ -96,15 +108,23 @@ section a {
 
 @media (max-width: 500px) {
   h1,
-  h2,
+  h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
   h3 {
     font-size: 18px;
+    text-align: center;
   }
 
   p {
     text-align: center;
     font-size: 14px;
     font-family: var(--default-font-family);
+  }
+  .description p {
+    text-indent: 0%;
   }
   .btn-branding {
     font-size: 11px;
