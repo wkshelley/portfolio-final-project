@@ -61,7 +61,7 @@ section a {
 }
 
 .row :hover {
-  background-color: #22252e;
+  background-color: #3e3f42;
 }
 .description h3 {
   font-family: var(--default-font-family);
@@ -87,7 +87,7 @@ section a {
 }
 
 .hubble {
-  margin-top: 30px;
+  margin-top: 25px;
 }
 .number {
   font-size: 22px;
