@@ -23,11 +23,16 @@ h3 {
 }
 
 h5 {
-  color: var(--primary-color);
+  color: var(--seconday-color);
   font-family: var(--default-font-family);
+  font-weight: bold;
+  font-size: 20px;
   text-align: center;
-  padding: 30px 55px;
-  margin: 0 40px;
+  padding: 10px 55px;
+}
+
+a h5:hover {
+  color: #0b58c6;
 }
 
 figcaption {
@@ -52,7 +57,7 @@ p {
 }
 .milkyway-description:hover {
   background: #606163;
-  transition: 0.5s ease-in-out;
+  transition: 0.8s ease-in-out;
 }
 
 .milkyway {

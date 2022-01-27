@@ -26,7 +26,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/planets.css" />
-    <title>Document</title>
+    <title>Planets NASA</title>
   </head>
   <body>
  <nav class="navbar navbar-expand-lg navbar-light bg-dark rounded-3">
@@ -89,7 +89,7 @@
       <div class="d-flex justify-content-center "><h2 class=" pe-5"> Planets <span class="slider-text pe-5"> 8</span> </h2><h2 class="ps-5">  Dwarf Planets <span class="slider-text">5 </span> </h2></div>
     </div>
     <div class="carousel-item">
-      <div class="d-flex justify-content-center"><h2 class="pe-5">Moons  <span class="slider-text ps-2 pe-5">+200</span></h2> <h2 class="ps-5">Sun  <span class="slider-text">1</span></h2>    </div>
+      <div class="d-flex justify-content-center"><h2 class="pe-5">Moons  <span class="slider-text ps-2 pe-5">+200</span></h2> <h2 class="ms-5 ps-5">Sun  <span class="slider-text">1</span></h2>    </div>
       
     </div>
     <div class="carousel-item">
@@ -105,8 +105,18 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>    
-    <div class="d-none d-sm-block container">
+</div>   
+<section class=" mt-5">
+  <h4 class="text-center">On This Page</h4>
+  <ul class="text-center">
+    <li><a href="#solar">Our Solar System</a></li>
+    <li><a href="#planet">What is a Planet?</a></li>
+      <li><a href="#dwarf-planet">Dwarf Planets</a></li>
+  </ul>
+
+</section> 
+<div class="d-none d-sm-block container">
+   
       <div class="row text-center">
         <div class="col-md-3 card-container">
           <div class="card card-flip">
@@ -209,6 +219,7 @@
         </div>
       </div>
         <div class="row text-center">
+             <div class="text-center text-muted"><em><i class="far fa-hand-pointer"></i> Hover planets to learn more</em> </div>
            <div class="col-md-3 card-container">
           <div class="card card-flip">
             <div class="front card-block">
@@ -312,16 +323,24 @@ The first planet located through mathematical calculations, rather than by teles
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md">
-          <div class=" description-box rounded">
-<p >There are more planets than stars in our galaxy. The current count orbiting our star: eight.
+        <div class="col-md description-box rounded me-2">
+            <h5 class="text-center text-black pb-2" id="planet">What is a Planet?</h5>
+<p >This seemingly simple question doesn't have a simple answer. Everyone knows that Earth, Mars and Jupiter are planets. But both Pluto and Ceres were once considered planets until new discoveries triggered scientific debate about how to best describe them—a vigorous debate that continues to this day.</p> <p>The most recent definition of a planet was adopted by the International Astronomical Union in 2006. It says a planet must do three things </p>
+<li><i class="fas fa-arrow-circle-right text-black"></i>  It must orbit a star (in our cosmic neighborhood, the Sun)</li><li><i class="fas fa-arrow-circle-right text-black"></i> It must be big enough to have enough gravity to force it into a spherical shape</li><li><i class="fas fa-arrow-circle-right text-black"></i> It must be big enough that its gravity cleared away any other objects of a similar size near its orbit around the Sun</li></p>  
+</div>
+
+<div class="col-md description-box rounded me-2">
+  <h5 class="text-center text-black pb-2" id="solar">Planets in our Solar System</h5>
+    <p >There are more planets than stars in our galaxy. The current count orbiting our star: eight.
 The inner, rocky planets are Mercury, Venus, Earth, and Mars. NASA's newest rover — Perseverance — landed on Mars on Feb. 18, 2021. </p> <p class=" pt-2 pb-4">The outer planets are gas giants Jupiter and Saturn and ice giants Uranus and Neptune.
 Beyond Neptune, a newer class of smaller worlds called dwarf planets reign, including longtime favorite Pluto. Thousands more planets have been discovered beyond our solar system. Scientists call them exoplanets (exo means "from outside").</p>  
-</div></div>
-<div class="col-md">
-  <div class="description-box rounded">
-    <p>The key difference between a planet and a dwarf planet is the kinds of objects that share its orbit around the Sun. Pluto, for example, has not cleared its orbit of similar objects while Earth or Jupiter have no similarly-sized worlds on the same path around the Sun. Dwarf planets are generally round (Haumea looks like an overinflated football) and orbit the Sun.</p><p> The five best-known dwarf planets are Ceres, Pluto, Makemake, Haumea, and Eris. Except for Ceres, which lies in the main asteroid belt, these small worlds are located in the Kuiper Belt. They’re considered dwarfs because they are massive, round, and orbit the Sun, but haven't cleared their orbital path.</p>
-  </div>
+<div class=" text-center"><a href="https://exoplanets.nasa.gov/alien-worlds/ways-to-find-a-planet/" target="_blank" alt="planet button" title="NASA Planet button link"><button class="btn btn-light explore-button">Learn More</button></a></div>
+</div>
+
+<div class="col-md description-box rounded">
+  <h5 class="text-center text-black pb-2" id="dwarf-planet">Dwarf Planets </h5>
+  
+    <p>The key difference between a planet and a dwarf planet is the kinds of objects that share its orbit around the Sun. Pluto, for example, has not cleared its orbit of similar objects while Earth or Jupiter have no similarly-sized worlds on the same path around the Sun. Dwarf planets are generally round (Haumea looks like an overinflated football) and orbit the Sun.</p><p> There are likely thousands of dwarf planets waiting to be discovered beyond Neptune. The five best-known dwarf planets are Ceres, Pluto, Makemake, Haumea, and Eris. Except for Ceres, which lies in the main asteroid belt, these small worlds are located in the Kuiper Belt. They’re considered dwarfs because they are massive, round, and orbit the Sun, but haven't cleared their orbital path.</p>
   
 </div>
 </div>
