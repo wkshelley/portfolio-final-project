@@ -10,11 +10,21 @@ body {
   margin: 50px;
 }
 
+a {
+  text-decoration: none;
+}
+
 h3 {
   color: black;
   font-family: var(--default-font-family);
   font-size: 28px;
   font-weight: bold;
+  text-align: center;
+}
+
+figcaption {
+  color: black;
+  font-style: italic;
   text-align: center;
 }
 
@@ -30,10 +40,11 @@ p {
 .milkyway-description p {
   font-size: 15px;
   line-height: 1.7;
-  padding: 5px 10px;
+  padding: 5px;
 }
 .milkyway-description:hover {
-  background: #97a5b3;
+  background: #606163;
+  transition: 0.5s ease-in-out;
 }
 
 .milkyway {
@@ -74,24 +85,23 @@ p {
   opacity: 1;
 }
 
-@media (max-width: 900px) {
-  h1,
-  h4 {
+@media (max-width: 000px) {
+  h3 {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     font-family: var(--default-font-family);
-    margin: 5px;
+    margin: 0px;
     padding: 0;
   }
   p {
     text-align: center;
-    font-size: 14px;
+    text-indent: 0px;
+    font-size: 12px;
     font-family: var(--default-font-family);
-    margin: 5px;
+    margin: 0px;
     padding: 0;
   }
-  .btn-branding {
-    font-size: 11px;
-    text-align: center;
+  .milkyway-description {
+    padding-bottom: 0;
   }
 }
