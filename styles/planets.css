@@ -138,21 +138,21 @@ ul {
 
 @keyframes spin {
   0% {
-    transform: rotateY(-1 deg) translate3d(-50%);
+    transform: rotateY(0deg);
   }
 
   100% {
-    transform: rotateY(100deg) translate3d(-50%);
+    transform: rotateY(-360deg) translate3d(-50%);
   }
-  /*100% {
-    transform: rotateZ(100deg);*/
 }
+/*100% {
+    transform: rotateZ(100deg);*/
 
 /* 0% 
-    transform: rotateY(-100deg) translateY(-50%);
+    transform: rotateY(0deg) 
   }
   100% {
-    transform: rotateY(-1deg) translateY(-50%);
+    transform: rotateY(-360deg));
   }*/
 
 #earth {
@@ -212,9 +212,9 @@ ul {
   background-repeat: no-repeat;
   background-size: 100px;
   border-radius: 50%;
+  position: relative;
 
-  perspective: 200px;
-  animation: spin 10s infinite ease-in-out;
+  animation: spin 5s infinite normal;
 }
 #uranus {
   width: 100px;

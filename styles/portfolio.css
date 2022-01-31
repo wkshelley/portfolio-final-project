@@ -8,6 +8,7 @@ font-family: 'Roboto', sans-serif;*/
 }
 body {
   font-family: var(--default-font-family);
+  margin: 50px 50px;
 }
 
 a {
@@ -17,18 +18,48 @@ a {
 h1 {
   color: var(--primary-color);
   font-family: Helvetica, sans-serif;
-  font-size: 85px;
+  font-size: 90px;
   letter-spacing: 3.5px;
 }
 
 footer {
-  color: var(--primary-color);
+  color: white;
   font-size: 16px;
+  padding-bottom: 5px;
+}
+
+.btn:hover {
+  background: var(--primary-color);
+  color: black;
+  transition: 0.7s ease-in-out;
+}
+
+.git {
+  color: rgb(140, 56, 224);
+  background: #323d3e;
+}
+
+.git:hover {
+  color: #d2d5e6;
+  transition: 0.5s ease-in-out;
+}
+
+.mail {
+  background: #323d3e;
+}
+
+.mail:hover {
+  color: #d2d5e6;
+  transition: 0.5s ease-in-out;
 }
 
 .homepage {
-  padding: 75px 20px;
+  padding: 33px 20px;
   text-align: center;
+}
+
+.navbar-toggler.icon {
+  background-color: ivory;
 }
 
 .space {
@@ -39,44 +70,6 @@ footer {
   height: 650px;
 }
 
-.btn-branding {
-  background-color: #6e8ba1;
-  border-radius: 28px;
-  color: var(--primary-color);
-  font-size: 14px;
-  line-height: 27px;
-  padding: 12px 20px;
-}
-
-.planet {
-  position: relative;
-  width: 100%;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 150%;
-  width: 200%;
-  opacity: 0;
-  transition: 0.5s ease;
-  background-color: black;
-}
-
-.overlay-text {
-  color: white;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.planet :hover .overlay {
-  opacity: 1;
-}
 @keyframes rotate {
   0% {
     transform: rotateZ(0);
@@ -87,23 +80,12 @@ footer {
 }
 
 .rotate {
-  width: 25%;
+  width: 33%;
   background-repeat: no-repeat;
   background-size: 25%;
   border-radius: 50%;
   padding-bottom: 20px;
   animation: rotate 30s infinite linear;
-}
-
-#earth {
-  width: 100px;
-  height: 100px;
-  background: url("/images/earth.jpg");
-  background-repeat: no-repeat;
-  background-size: 100px;
-  border-radius: 50%;
-  padding-bottom: 20px;
-  animation: rotate 50s infinite linear;
 }
 
 @media (max-width: 900px) {
@@ -116,8 +98,13 @@ footer {
     font-size: 16px;
     font-family: var(--default-font-family);
   }
-  .btn-branding {
-    font-size: 14px;
-    padding: 10px;
+
+  body {
+    margin-bottom: 15px;
+  }
+
+  footer {
+    font-size: 12px;
+    text-align: center;
   }
 }

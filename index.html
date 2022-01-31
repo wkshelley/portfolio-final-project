@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Space Project by Shelley White" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,15 +27,21 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>Document</title>
+    <title>Space Portfolio Project</title>
   </head>
 
   <body class="space">
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand text-white" href="/index.html">Home</a>
+        <a
+          class="navbar-brand text-white"
+          href="/index.html"
+          alt="Home Page"
+          title="Home Page"
+          >Home</a
+        >
         <button
-          class="navbar-toggler"
+          class="navbar-toggler bg-light"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -51,13 +58,18 @@
                 class="nav-link active text-white"
                 aria-current="page"
                 href="/planets.html"
-                title="planets"
+                alt="Planets"
+                title="Planets Link"
                 target="_blank"
                 >Planets</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="/galaxy.html"
+              <a
+                class="nav-link text-white"
+                href="/galaxy.html"
+                alt="Solar System"
+                title="Solar System"
                 >Solar System</a
               >
             </li>
@@ -65,6 +77,7 @@
               <a
                 class="nav-link text-white"
                 href="https://www.nasa.gov/multimedia/nasatv/index.html#public"
+                alt="SpaceX Link"
                 target="_blank"
                 title="NASA TV"
                 >NASA TV 📺</a
@@ -74,6 +87,7 @@
               <a
                 class="nav-link text-white"
                 href="https://www.spacex.com/"
+                alt="SpaceX link"
                 target="_blank"
                 title="SpaceX"
                 >SpaceX</a
@@ -86,103 +100,46 @@
     <div class="homepage">
       <h1>SPACE</h1>
 
-      <img src="/images/The_Earth_seen_from_Apollo_17.jpg" class="rotate" />
-
-      <footer>Coded by 👩‍💻 Shelley White</footer>
-
-      <a
-        href="/milkway.html"
-        title="Milky Way Galaxy"
-        class="mt-2 btn btn-branding"
-        >EXPLORE 🚀</a
-      >
-
-      <!--<div class="container">
-        <div class="row justify-content-evenly mt-5">
-          <div class="col-1 d-none d-lg-block mt-5">
-            <div class="planet">
-              <a
-                href="https://solarsystem.nasa.gov/planets/earth/overview/"
-                title="Earth"
-                ><div id="earth"></div>
-                <div class="overlay">
-                  <div class="overlay-text">Text Goes Here</div>
-                </div>
-              </a>
-            </div>
-          </div>  
-          <div class="col-1 d-none d-lg-block mt-5">
-            <div class="planet">
-              <a
-                href="https://solarsystem.nasa.gov/planets/mercury/overview/"
-                title="Mercury"
-              >
-                <div id="mecury"></div>
-                <div class="overlay">
-                  <div class="overlay-text">Text goes Here</div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-1 d-none d-lg-block mt-5">
-            <div class="planet">
-              <a
-                href="https://solarsystem.nasa.gov/planets/mars/overview/"
-                title="Mars"
-              >
-                <div id="mars"></div>
-                <div class="overlay">
-                  <div class="overlay-text">
-                    Mars is a dusty, cold, desert world with a very thin
-                    atmosphere. There is strong evidence Mars was—billions of
-                    years ago—wetter and warmer, with a thicker atmosphere.
-                  </div>
-                </div></a
-              >
-            </div>
-          </div>
-          <div class="col-1 d-none d-lg-block mt-5">
-            <a
-              href="https://solarsystem.nasa.gov/planets/saturn/overview/"
-              title="Saturn"
-            >
-              <div id="saturn"></div
-            ></a>
-          </div>
-          <div class="col-1 d-none d-lg-block mt-5">
-            <a
-              href="https://solarsystem.nasa.gov/planets/venus/overview/"
-              title="Venus"
-            >
-              <div id="venus"></div
-            ></a>
-          </div>
-          <div class="col-1 d-none d-lg-block mt-5">
-            <a
-              href="https://solarsystem.nasa.gov/planets/neptune/overview/"
-              title="Neptune"
-            >
-              <div id="neptune"></div
-            ></a>
-          </div>
-          <div class="col-1 d-none d-lg-block mt-5">
-            <a
-              href="https://solarsystem.nasa.gov/planets/jupiter/overview/"
-              title="Jupiter"
-            >
-              <div id="jupiter"></div
-            ></a>
-          </div>
-          <div class="col-1 d-none d-lg-block mt-5">
-            <a
-              href="https://solarsystem.nasa.gov/planets/uranus/overview/"
-              title="Uranu"
-            >
-              <div id="uranus"></div
-            ></a>
-          </div>
+      <img
+        src="/images/The_Earth_seen_from_Apollo_17.jpg"
+        alt="Earth image from Space"
+        title="Earth Image from Apollo"
+        class="rotate"
+      />
+      <div class="mt-1 mb-1">
+        <a href="/milkway.html" alt="Milky Way Link"
+          ><button class="btn btn-dark rounded text-center">
+            EXPLORE 🚀
+          </button></a
+        >
+      </div>
+      <footer class="pt-3" title="Shelley White">
+        Coded by 👩‍💻 Shelley White
+        <div class="social links mt-2">
+          <a
+            class="mail ps-3 pe-3"
+            href="mailto:shelleywlyons@gmail.com"
+            alt="shelley white email"
+            title="shelleywlyons@gmail.com"
+            ><i class="far fa-envelope"></i
+          ></a>
+          <a
+            href="https://github.com/wkshelley/portfolio-final-project"
+            alt="github link"
+            title="GitHub Shelley White"
+            class="git ps-3 pe-3"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.netlify.com">
+            <img
+              src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"
+              alt="Deploys by Netlify"
+              width="54px"
+              height="40px"
+            />
+          </a>
         </div>
-      </div> !-->
+      </footer>
     </div>
   </body>
 </html>
