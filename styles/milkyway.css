@@ -123,4 +123,10 @@ p {
   .milkyway-description {
     padding-bottom: 0;
   }
+
+  h5 {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+  }
 }
