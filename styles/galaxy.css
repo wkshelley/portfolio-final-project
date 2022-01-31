@@ -122,6 +122,10 @@ section a {
     font-size: 14px;
     font-family: var(--default-font-family);
   }
+
+  .description {
+    margin: 15px 0px;
+  }
   .description p {
     text-indent: 0%;
   }
